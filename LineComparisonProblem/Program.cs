@@ -6,14 +6,17 @@ namespace LineComparisonProblem
     {
         static void Main(string[] args)
         {
-            
-            CaculateLength obj = new CaculateLength();
+
+            CheckEquality equalityChecker = new CheckEquality();
 
             
-            obj.CalculateLength();
+            equalityChecker.CheckEqualit();
 
-           
-            
+
+
+
+
+
         }
     }
 }
