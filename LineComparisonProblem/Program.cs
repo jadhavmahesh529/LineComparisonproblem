@@ -1,2 +1,20 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Welcome to line comparison Computation Program !");
+﻿using System;
+
+namespace LineComparisonProblem
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            CaculateLength obj = new CaculateLength();
+
+            
+            obj.CalculateLength();
+
+           
+            
+        }
+    }
+}
+
